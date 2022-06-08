@@ -28,6 +28,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#testing">Testing</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
@@ -78,6 +79,13 @@ To visualize properly the app, you need to run the backend as you can see at [th
   cd ws-srv-frontend/
   npm install
   npm start
+   ```
+  
+  ### Testing
+  To execute frontend tests run:
+   ```sh
+  cd ws-srv-frontend/ (if not at the folder)
+  npm test
    ```
 
 Disclaimer: If you have some incompablity when runing, checks if the peer dependencies for recharts includes your current version of React. 
