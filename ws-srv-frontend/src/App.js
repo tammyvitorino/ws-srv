@@ -56,7 +56,7 @@ const App = () => {
             <h1>Test</h1>
           </div>
           <div>
-            <CToast autohide={false} visible={true} className="Toast">
+            <CToast autohide={false} visible={true} className="Toast" aria-label='toast'>
                 <CToastBody>The server is now {checkConection}.</CToastBody>
                 <CToastClose className="me-2 m-auto" white />
             </CToast>
@@ -80,6 +80,7 @@ const App = () => {
             left: 20,
             bottom: 5,
           }}
+          aria-label='chart'
           >
           <Rechart.XAxis dataKey="name" interval='preserveEnd' domain={[0, 100]} allowDataOverflow="false"/>
           <Rechart.YAxis hide="true" domain={[0, 100]} allowDataOverflow="false"/>
