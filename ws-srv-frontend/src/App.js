@@ -28,6 +28,8 @@ const App = () => {
 
   let checkConection = ""
 
+  console.log('ready', readyState)
+
   const connectionStatus = {
     [ReadyState.CONNECTING]: 'Connecting',
     [ReadyState.OPEN]: 'Open',
@@ -37,7 +39,7 @@ const App = () => {
   }[readyState];
   
   const isConnected = () => {
-    if (readyState) {
+    if (readyState == 1) {
       checkConection = "connected"
     }
     else{
