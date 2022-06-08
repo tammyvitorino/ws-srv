@@ -37,7 +37,7 @@ const App = () => {
   }[readyState];
   
   const isConnected = () => {
-    if (connectionStatus) {
+    if (readyState) {
       checkConection = "connected"
     }
     else{
