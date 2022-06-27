@@ -5,7 +5,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/tammyvitorino/ws-srv">
-    <img src="https://www.wiliot.com/src/uploads/WhiteWiliotLogo.png" alt="Logo" width="150">
   </a>
 
   <h3 align="center">Websocket Server</h3>
